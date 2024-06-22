@@ -1,0 +1,23 @@
+.kids-main hr{
+    margin: 5vh;
+    }
+    
+    .kids-items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+    }
+    
+    .kids-main h1,h3{
+    display: flex;
+    justify-content: center;
+    }
+
+    @media(max-width:600px){
+
+        .kids-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        }
+    
+    }

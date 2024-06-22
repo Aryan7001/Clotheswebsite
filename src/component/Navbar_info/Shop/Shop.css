@@ -1,0 +1,15 @@
+.shop-texts{
+    padding-left: 36vw;
+    font-size: 24px;
+    color: red;
+}
+
+@media(max-width:600px){
+
+    .shop-texts{
+        font-size: 12px;
+        padding-left: 20vw;
+    }
+
+
+}

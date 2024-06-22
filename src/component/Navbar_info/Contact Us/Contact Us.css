@@ -1,0 +1,76 @@
+.main-form{
+    padding: 2vh 32vw;
+    width: 30%;
+}
+
+.main-form input{
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+.main-form button{
+    padding: 12px;
+    border-radius: 12px;
+    color: red;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-form button:hover{
+    background-color: black;
+}
+
+.main-contact{
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+    background-image: url('../../../images/contactimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form-back{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 12vh 0;
+    color: red;
+    font-size: 36px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+}
+
+
+@media(max-width:600px){
+
+    .form-back{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 8vh 12px;
+        color: red;
+        font-size: 12px;
+        font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.7); 
+        border-radius: 10px;
+    }
+
+    .main-form{
+        padding:4vh 3vw;
+        width: 320px;
+        margin: 9px;
+    }
+
+    .main-form button{
+        padding: 4px;
+    }
+}

@@ -1,0 +1,50 @@
+.left-body p{
+font-size: 2vw;
+}
+
+.left-body h2 {
+    font-size: 3vw;
+    color: #C40C0C;
+    }
+
+.left-body{
+   padding: 6vw;
+}
+.left-body span{
+    color: #00215E;
+}
+
+.left-body button{
+    padding: 1vw 3vw;
+    background-color: #EFBC9B;
+    color: #430A5D;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #803D3B;
+    cursor: pointer;
+}
+
+.left-body button:hover{
+    background-color: #FC819E;
+}
+
+
+
+.main-body{
+display: flex;
+position: relative;
+background: url('../../images/suprised.jpg') no-repeat;
+background-size: contain;
+height: 70vw;
+}
+
+
+@media(max-width:600px){
+
+    .main-body{
+    background-size: cover;
+    width: 100%;
+    padding-top: 35px;
+    }
+
+
+}

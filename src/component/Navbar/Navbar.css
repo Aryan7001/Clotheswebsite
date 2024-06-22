@@ -1,0 +1,71 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CA8787;
+    padding: 1vw 2vw;
+    font-family: "Freeman";
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #803D3B;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 3vw;
+}
+
+.nav-list li {
+    list-style: none;
+    color: #322C2B;
+}
+
+.nav-list .active {
+    border-bottom: 1px solid yellow;
+    padding-bottom: 2px;
+}
+
+.ham-burger {
+    display: none;
+    cursor: pointer;
+}
+
+
+@media(max-width:600px){
+
+.ham-burger{
+display: block;
+}
+
+.nav-list{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    width: 20%;
+    z-index: 1;
+    right: 7px;
+    padding: 12px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.nav-list.open{
+    display: flex;
+}
+
+.nav-items{
+ padding-left: 120px;
+}
+
+.nav-list .active {
+    border-bottom: 1px solid yellow;
+    padding-bottom: 1px;
+}
+
+.search-items{
+    position: absolute;
+    left: 32vw;
+}
+
+}
